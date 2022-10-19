@@ -6,6 +6,7 @@ import (
 
 func main(){
 	fmt.Println("Golang não tem while");
+	learnContinue();
 }
 func clock(){
 	for hour := 0; hour <= 12; hour ++{	
@@ -43,5 +44,13 @@ func endingInfiniteLoop(){
 			fmt.Println("[X é igual a 10]","\tValor de X:",x,"\nBye");
 			break
 		}
+	}
+}
+func learnContinue(){
+	for i := 0; i < 20; i++{
+	   if i % 2 !=0{
+		continue;
+	   }
+	   fmt.Println(i);
 	}
 }
