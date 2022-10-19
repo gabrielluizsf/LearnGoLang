@@ -1,15 +1,17 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
+    "desafio_loops_vkorbes/desafio"
 )
+
 
 func main(){
 	fmt.Println("Golang não tem while");
-	learnContinue();
+    desafio.Desafio();
 }
 func clock(){
-	for hour := 0; hour <= 12; hour ++{	
+	for hour := 0; hour <= 12; hour ++{
 		fmt.Println("Hora:",hour,":00");
 		for minutes := 0; minutes < 60; minutes ++{
 			fmt.Print(hour,":",minutes,"\n");
