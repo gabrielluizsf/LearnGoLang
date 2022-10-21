@@ -24,7 +24,7 @@ func Loading(value int){
   }else if value > 100{
       fmt.Println("Invalid Value")
   }else{
-        fmt.Printf("100%")
+      fmt.Println("100%")
     }
 }
 
