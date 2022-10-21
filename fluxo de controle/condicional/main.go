@@ -1,13 +1,15 @@
 package main
 
 import (
+	operadoreslogicos "condicional-golang/operadores-logicos"
 	"fmt"
 )
 
 func main(){
 	isTrue();
     Loading(10);
-    Cases("apple")
+    Cases("apple");
+    operadoreslogicos.LogicOperators(6)
 }
 func isTrue(){
 	booleano := true
@@ -45,3 +47,4 @@ func Cases(choice string){
     }
 
 }
+
