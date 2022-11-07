@@ -27,12 +27,9 @@ func main(){
   }
 
 func pedidos(name string, slice []string){
+  fmt.Printf("\n")
   fmt.Println("[Cliente]:",name);
   for indice , value := range slice{
-    if indice == 0{
-    fmt.Println("Sorvete:",value);
-  }else{
-    fmt.Println("Sorvete:",value,"\n ");
-  }
+    fmt.Println("Pedido:",indice + 1,"\n","Sorvete:",value);
   }
 }
