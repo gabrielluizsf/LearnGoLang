@@ -27,6 +27,14 @@ func  countLetters(name string){
 	fmt.Println("O Nome", name, "tem",len(name),"letras.");
 }
 
+/*
+o parâmetro variádico ... tem que ser o ultimo
+
+exemplo:
+func example(name string,cash ...int) (int,int,string){
+
+}
+*/
 func sum(numbers ...int) (int,int){
 	result := 0;
 	for _ ,value := range numbers{
