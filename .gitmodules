@@ -1,0 +1,3 @@
+[submodule "aprendago"]
+	path = aprendago
+	url = https://github.com/vkorbes/aprendago.git
