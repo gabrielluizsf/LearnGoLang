@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+  gobyexample "interfaces/gobyexample"
 )
 
 type myName struct{
@@ -52,4 +53,5 @@ func main(){
 
   helloHuman(developer);
   helloHuman(customer);
+  gobyexample.Medir();
 }
