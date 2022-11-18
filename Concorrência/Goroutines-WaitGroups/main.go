@@ -34,8 +34,8 @@ func rocket(){
 	fmt.Printf("🚀");
 	waitGroup.Done();
 }
-func printGoroutines(){	fmt.Println(runtime.NumCPU());}
-func printNumCPUs(){fmt.Println(runtime.NumGoroutine());}
+func printNumCPUs(){fmt.Println("[CPUs]:",runtime.NumCPU());}
+func printGoroutines(){fmt.Println("[Goroutines]:",runtime.NumGoroutine());}
 func whoami(){
 	name := "";
 	fmt.Printf("Digite seu nome:");
