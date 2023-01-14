@@ -6,5 +6,7 @@ import (
 )
 
 func PRINT_DEFAULT_ERROR_MESSAGE(err error){
-  log.Fatalf("[ERROR]: ",err);
+  if err != nil{
+    log.Fatalf("[ERROR]: ",err);
+  }
 }
