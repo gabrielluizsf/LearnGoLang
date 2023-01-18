@@ -2,3 +2,5 @@ github.com/GabrielLuizSF/go_url v0.0.0-20221225182814-ae805f0681c9 h1:ibxQ8uB2hV
 github.com/GabrielLuizSF/go_url v0.0.0-20221225182814-ae805f0681c9/go.mod h1:toKgDlhDNMhC7+5QG1euxD4RHwboyuicrjk7f7OqKvQ=
 github.com/GabrielLuizSF/go_url v0.0.0-20230107173901-839b381d3a79 h1:nN1XTCl0fJQAL0+rb7wBYqeBE4GLfP2di9h7cJ6QRaE=
 github.com/GabrielLuizSF/go_url v0.0.0-20230107173901-839b381d3a79/go.mod h1:toKgDlhDNMhC7+5QG1euxD4RHwboyuicrjk7f7OqKvQ=
+github.com/GabrielLuizSF/go_url v0.0.0-20230118193753-90d2683f6df4 h1:3W3nU5Ekci/W1OTuzUwzSawKGN7fs+//TF4xc5n/gmw=
+github.com/GabrielLuizSF/go_url v0.0.0-20230118193753-90d2683f6df4/go.mod h1:toKgDlhDNMhC7+5QG1euxD4RHwboyuicrjk7f7OqKvQ=
